@@ -26,6 +26,7 @@ module holes()
     translate([28.5,13,2.1]) cylinder(r=2.75/cos(30)+0.05,h=2.4,$fn=6);
 }
 
+translate([-17,-13,0])
 difference()
 {
     body();
